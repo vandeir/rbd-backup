@@ -3,9 +3,9 @@ This script was made based on the script avaliable in this
 URL: https://www.rapide.nl/blog/item/ceph_-_rbd_replication.html
 
 It is used to create snapshots of Ceph RBD images e then export those snaps
-to be imported on images on another Ceph cluster.
+to be imported in images on another Ceph cluster.
 
-The diference on this script relies on its hability to keep just
+The diference on this script relies in its hability to keep just
 a defined number of snapshots, removing older ones.
 
 Its necessary to change only those variables:
